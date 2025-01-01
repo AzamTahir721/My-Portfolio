@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+  <header class="quiz-header">
+    <h1>Azam's Interactive Quiz App</h1>
+  </header>
+
+  <main class="quizSection">
+    <div class="quiz-container">
+      <p class="quiz-desc">Test your knowledge with this quick quiz!</p>
+      <div id="quiz">
+        <div class="question-box">
+          <h3 id="question">Question text</h3>
+          <ul id="choices">
+            <!-- Choices will be injected here -->
+          </ul>
+        </div>
+        <button id="submit" class="btn">Submit</button>
+      </div>
+      <div id="results" class="results-box"></div>
+    </div>
+  </main>
+
+  <footer class="quiz-footer">
+    <p>&copy; 2024 Azam's Interactive Quiz App | All Rights Reserved</p>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+
+</html>
